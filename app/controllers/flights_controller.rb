@@ -53,6 +53,6 @@ class FlightsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def flight_params
-      params.require(:flight).permit(:flight_name, :route_id, :departure, :arrival, :number_of_passengers, :aircraft_type, :arrived, :stocked, :cleaned)
+      params.require(:flight).permit(:flight_name, :flight_route_id, :departure, :arrival, :number_of_passengers, :aircraft_type, :arrived, :stocked, :cleaned)
     end
 end
