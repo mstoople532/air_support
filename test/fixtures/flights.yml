@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  flight_name: MyString
+  route: one
+  departure: 2017-03-29 15:02:25
+  arrival: 2017-03-29 15:02:25
+  number_of_passengers: 1
+  aircraft_type: MyString
+  arrived: false
+  stocked: false
+  cleaned: false
+
+two:
+  flight_name: MyString
+  route: two
+  departure: 2017-03-29 15:02:25
+  arrival: 2017-03-29 15:02:25
+  number_of_passengers: 1
+  aircraft_type: MyString
+  arrived: false
+  stocked: false
+  cleaned: false
